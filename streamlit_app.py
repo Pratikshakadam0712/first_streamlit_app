@@ -1,7 +1,7 @@
 git clone git@github.com:snowflakedb/snowflake-connector-python.git
 cd snowflake-connector-python
 python -m pip install -U pip setuptools wheel build
-python -m build --wheel .
+python -m build --wheel 
 
 import streamlit
 import pandas
